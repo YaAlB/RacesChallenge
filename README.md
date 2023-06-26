@@ -48,6 +48,22 @@ The codebase is structured as follows:
 - `ViewModel`: Contains the view model that manages the race data, selected categories, and API interactions.
 - `View`: Contains the SwiftUI views for displaying the race list, filter menu, and race summaries.
 
+## Scalable Layouts
+
+The Race List App uses scalable layouts to ensure that the app can respond to font scale changes. The SwiftUI framework automatically adjusts the layout and font sizes based on the user's accessibility settings.
+
+## Testing
+
+The Race List App includes unit tests to ensure the correctness of the `RaceListViewModel`. The following tests are included:
+
+- `testFetchRaceData`: Tests the fetching of race data from the remote API.
+- `testFilterByCategory`: Tests the filtering of the race list based on selected categories.
+- `testInitialSelectedCategories`: Tests the initial state of selected categories.
+- `testIsCategorySelected`: Tests the selection of categories.
+- `testFetchRaceDataWithInvalidURL`: Tests the handling of invalid URLs during race data fetching.
+- `testFetchRaceDataWithNoData`: Tests the handling of scenarios where no data is received.
+- `testFetchRaceDataWithInvalidJSON`: Tests the handling of invalid JSON during data decoding.
+
 ## Documentation
 
 For more details about the code and its components, refer to the inline comments in the code files.
