@@ -56,13 +56,9 @@ The Race List App uses scalable layouts to ensure that the app can respond to fo
 
 The Race List App includes unit tests to ensure the correctness of the `RaceListViewModel`. The following tests are included:
 
-- `testFetchRaceData`: Tests the fetching of race data from the remote API.
 - `testFilterByCategory`: Tests the filtering of the race list based on selected categories.
 - `testInitialSelectedCategories`: Tests the initial state of selected categories.
 - `testIsCategorySelected`: Tests the selection of categories.
-- `testFetchRaceDataWithInvalidURL`: Tests the handling of invalid URLs during race data fetching.
-- `testFetchRaceDataWithNoData`: Tests the handling of scenarios where no data is received.
-- `testFetchRaceDataWithInvalidJSON`: Tests the handling of invalid JSON during data decoding.
 
 ## Documentation
 
